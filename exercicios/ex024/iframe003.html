@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores corrupti necessitatibus quam voluptatum excepturi nulla dolor quibusdam sapiente modi optio omnis similique rerum doloremque beatae, enim corporis ex vero.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum neque excepturi rerum doloremque aperiam modi cupiditate blanditiis quasi facere recusandae, esse perspiciatis quam porro velit iure aliquam, possimus obcaecati enim.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, iusto architecto vitae qui explicabo odit beatae ex laudantium dolore magnam praesentium consequatur voluptatibus delectus repellendus laboriosam blanditiis corrupti! Quo, in!</p><img src='imagens/logo.png'>">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio cupiditate quasi iste molestiae, quam quia dolore architecto exercitationem dolor laboriosam saepe ex mollitia ut sed modi delectus maiores consequatur quae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ad iste doloribus laboriosam qui ex est. Odit consequatur dolores, cumque inventore est quod officia, rerum eius fuga deleniti officiis sapiente!</p>
+</body>
+</html>
